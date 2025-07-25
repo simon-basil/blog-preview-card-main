@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+}
+.container{
+    min-height: 100dvh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(47, 88%, 63%);
+}
+.child_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: auto;
+    height: 410px;
+    padding: 20px 20px;  
+    gap: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+.ia{
+    height: 180px;
+    width: auto;
+    border-radius: 10px;
+}
+.learn{
+    background-color: hsl(47, 88%, 63%);
+    width: 85px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.learn p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.top.text p{
+    color: hsl(0, 0%, 7%);
+}
+p{
+    font-size: 15px;
+}
+.bottom.text{
+    width: 295px;
+}
+.bottom .bold_heading{
+    font-size: 20px;
+    font-weight: 900;
+    color: hsl(0, 0%, 7%);
+    cursor: pointer;
+}
+.bottom .bold_heading:hover{
+    color: hsl(47, 88%, 63%);
+}
+.bottom p{
+    color: hsl(0, 0%, 42%);
+}
+.name_tag{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.greg{
+    height: 40px;
+    width: auto;
+}
+.name_tag .initials{
+    font-weight: 900;
+    color: hsl(0, 0%, 7%);
+}
+
+.attribution { 
+    display: flex;
+    align-items: center;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
