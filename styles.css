@@ -39,7 +39,6 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    flex-wrap: wrap;
 }
 .learn p{
     font-size: 15px;
