@@ -22,6 +22,7 @@
     padding: 20px 20px;  
     gap: 15px;
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px;
 }
 .ia{
     height: 180px;
@@ -84,6 +85,7 @@ p{
     align-items: center;
     font-size: 11px; 
     text-align: center; 
+    margin-top: 10px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
